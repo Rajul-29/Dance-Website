@@ -88,7 +88,7 @@
   .card {
   background-size: cover;
   background-position: center;  
-  width: 20%;
+  width: 25%;
   height: 15%;
   margin: auto;
   display: flex;
@@ -161,4 +161,27 @@
 
 .btn + .btn {
   margin-left: 10px;
+}
+.testimonials {
+  text-align: center;
+  margin: 5rem 0;
+}
+.carousel-container {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-text {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
 }
